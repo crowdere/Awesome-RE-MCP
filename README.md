@@ -118,13 +118,6 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 
 The following categories represent significant opportunities for community contribution. These tools are essential to reverse engineering workflows but currently lack MCP integration:
 
-### Hex Editors
-- **HxD**: Popular Windows hex editor - **NO MCP SERVER**
-- **010 Editor**: Professional binary editor - **NO MCP SERVER**  
-- **ImHex**: Modern, cross-platform hex editor - **NO MCP SERVER**
-- **Hex Fiend**: macOS hex editor - **NO MCP SERVER**
-- **wxHexEditor**: Cross-platform editor - **NO MCP SERVER**
-
 ### Packers/Unpackers
 - **UPX**: Universal Packer - **NO MCP SERVER**
 - **PEiD**: Packer identifier - **NO MCP SERVER**
@@ -180,10 +173,9 @@ Check out the simplest implementations in each category:
 
 ### Priority Development Areas
 Based on community needs assessment:
-1. **Hex Editors**: ImHex has existing scripting - good starting point
-2. **Fuzzing Tools**: AFL++ integration would enable AI-guided fuzzing
-3. **Windows Debugging**: WinDbg MCP would complete debugger ecosystem
-4. **Malware Sandboxes**: Cuckoo/CAPE integration for automated analysis
+1. **Fuzzing Tools**: AFL++ integration would enable AI-guided fuzzing
+2. **Windows Debugging**: WinDbg MCP would complete debugger ecosystem
+3. **Malware Sandboxes**: Cuckoo/CAPE integration for automated analysis
 
 ## Community & Events
 
@@ -214,7 +206,6 @@ We welcome contributions! Here's how you can help:
 
 ### Create MCP Servers
 Priority areas needing development:
-- **Hex Editors** (HxD, 010 Editor, ImHex)
 - **Packers/Unpackers** (UPX, PEiD, DIE)
 - **Fuzzing Tools** (AFL++, libFuzzer, honggfuzz)
 - **Windows Debugging** (WinDbg)
