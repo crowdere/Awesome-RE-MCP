@@ -125,6 +125,7 @@ The following categories represent significant opportunities for community contr
 - **ExeinfoPE**: Executable analyzer - **NO MCP SERVER**
 
 ### Malware Analysis Platforms
+- **MalCat**: Dynamic malware analysis - **NO MCP SERVER**
 - **Cuckoo Sandbox**: Dynamic malware analysis - **NO MCP SERVER**
 - **CAPE**: Configuration and Payload Extraction - **NO MCP SERVER**
 - **Joe Sandbox**: Commercial malware analysis - **NO MCP SERVER**
