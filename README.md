@@ -21,20 +21,20 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 
 ## Disassemblers & Decompilers
 
-### IDA Pro ⭐ Most Comprehensive
+### IDA Pro
 - **[ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)**: Most popular implementation with 20+ tools, automated installation, and streamlined architecture for function analysis and decompilation.
 - **[ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server)**: Python-based implementation for developers preferring Python integration.
 - **[mcp-server-idapro](https://github.com/fdrechsler/mcp-server-idapro)**: TypeScript-based MCP server providing tools for binary analysis and script execution.
 - **[ida-mcp-server-plugin](https://github.com/taida957789/ida-mcp-server-plugin)**: IDA Pro plugin with SSE (Server-Sent Events) protocol support for real-time integration with Claude and Cursor.
 - **[headless-ida-mcp-server](https://github.com/cnitlrt/headless-ida-mcp-server)**: Headless automation-focused server for CI/CD integration and batch processing.
 
-### Ghidra ⭐ Community Favorite
+### Ghidra
 - **[GhidraMCP](https://github.com/LaurieWired/GhidraMCP)**: Most comprehensive with 5.4k+ stars, featuring extensive documentation and multi-client support.
 - **[reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant)**: AI-first approach with chain-of-reasoning techniques and tool-driven analysis (ReVa).
 - **[ghidra-mcp](https://github.com/suidpit/ghidra-mcp)**: Spring Boot enterprise integration for team environments.
 - **[GhydraMCP](https://github.com/starsong-consulting/GhydraMCP)**: Multi-headed MCP server supporting multiple Ghidra instances.
 
-### Binary Ninja ⭐ Security-Focused
+### Binary Ninja
 - **[binary_ninja_mcp](https://github.com/fosdickio/binary_ninja_mcp)**: Seamless Claude Desktop integration with comprehensive plugin architecture.
 - **[binaryninja-mcp](https://github.com/MCPPhalanx/binaryninja-mcp)**: Feature-rich implementation with "superpower" capabilities.
 - **[binja_mcp](https://github.com/rsprudencio/binja_mcp)**: Alternative community implementation.
@@ -51,7 +51,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 - **[LLDB](https://lldb.llvm.org/use/mcp.html)**: ⭐ Official native MCP support as of June 2025, plus community implementations.
 - **[GDB MCP Server](https://www.pulsemcp.com/servers/pansila-gdb)**: Multiple implementations providing comprehensive debugging capabilities.
 
-### Missing Critical Debuggers 🚨
+### Missing Debuggers 🚨
 - **WinDbg**: No MCP implementation (critical gap for Windows/kernel debugging)
 - **OllyDbg**: Missing MCP server
 - **Immunity Debugger**: No MCP integration
@@ -73,7 +73,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 ### Available
 - **[frida-mcp](https://github.com/dnakov/frida-mcp)**: MCP server for Frida with process management, script injection, and real-time instrumentation.
 
-### Critical Gaps in Dynamic Analysis 🚨
+### Missing Dynamic Analysis Tools 🚨
 - **Intel Pin**: No MCP server for dynamic binary instrumentation
 - **DynamoRIO**: Missing MCP integration for code coverage analysis
 - **API Monitor**: No MCP support for Windows API monitoring
@@ -82,7 +82,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 
 ## Network Analysis
 
-### Excellent Coverage ⭐
+### Excellent Coverage
 - **[WireMCP](https://github.com/0xKoda/WireMCP)**: Wireshark MCP server with threat detection capabilities.
 - **[Burp Suite MCP](https://github.com/PortSwigger/mcp-server)**: Official PortSwigger implementation.
 - **[BurpMCP](https://github.com/swgee/BurpMCP)**: Community extension for enhanced security testing.
@@ -118,27 +118,27 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 
 The following categories represent significant opportunities for community contribution. These tools are essential to reverse engineering workflows but currently lack MCP integration:
 
-### Hex Editors (Complete Gap!)
+### Hex Editors
 - **HxD**: Popular Windows hex editor - **NO MCP SERVER**
 - **010 Editor**: Professional binary editor - **NO MCP SERVER**  
 - **ImHex**: Modern, cross-platform hex editor - **NO MCP SERVER**
 - **Hex Fiend**: macOS hex editor - **NO MCP SERVER**
 - **wxHexEditor**: Cross-platform editor - **NO MCP SERVER**
 
-### Packers/Unpackers (Complete Gap!)
+### Packers/Unpackers
 - **UPX**: Universal Packer - **NO MCP SERVER**
 - **PEiD**: Packer identifier - **NO MCP SERVER**
 - **Detect It Easy**: Signature-based packer detection - **NO MCP SERVER**
 - **ExeinfoPE**: Executable analyzer - **NO MCP SERVER**
 
-### Malware Analysis Platforms (Critical Gap!)
+### Malware Analysis Platforms
 - **Cuckoo Sandbox**: Dynamic malware analysis - **NO MCP SERVER**
 - **CAPE**: Configuration and Payload Extraction - **NO MCP SERVER**
 - **Joe Sandbox**: Commercial malware analysis - **NO MCP SERVER**
 - **ANY.RUN**: Interactive malware analysis - **NO MCP SERVER**
 - **pestudio**: Static malware analysis - **NO MCP SERVER**
 
-### Fuzzing Tools (High Impact Gap!)
+### Fuzzing Tools
 - **AFL++**: Advanced fuzzing framework - **NO MCP SERVER**
 - **libFuzzer**: LLVM fuzzing library - **NO MCP SERVER**
 - **honggfuzz**: Security-oriented fuzzer - **NO MCP SERVER**
@@ -192,13 +192,9 @@ Based on community needs assessment:
 - **[HuggingFace Agents-MCP Hackathon](https://huggingface.co/Agents-MCP-Hackathon)**: 4,100+ participants, $16.5K prizes
 - **MCP Dev Days**: Microsoft's July 2025 virtual conference
 
-### Key Contributors
-- **LaurieWired** (@lauriewired): GhidraMCP creator, REcon 2025 workshop presenter
-- **Duncan Ogilvie** (@mrexodia): IDA Pro MCP maintainer, X2DBG project lead
-- **CyberKaida** (@cyberkaida): ReVa (Reverse Engineering Assistant) creator
 
 ### Follow Development
-- **Twitter**: Share your MCP servers with @EdwardCrowderX or @RussianPanda
+- **Twitter**: Share your MCP servers with @EdwardCrowderX
 - **Awesome Lists**: [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers), [awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security)
 - **Community Hubs**: [PulseMCP](https://www.pulsemcp.com/), [Glama MCP](https://glama.ai/mcp/servers)
 
