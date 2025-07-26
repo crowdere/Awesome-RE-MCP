@@ -230,7 +230,7 @@ When submitting entries, please include:
 
 ## License
 
-This list is released under the [CC0 1.0 Universal](LICENSE) license.
+This list is released under the MIT license.
 
 ---
 
