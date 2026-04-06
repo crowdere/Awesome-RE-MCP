@@ -26,6 +26,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 - **[ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server)**: Python-based implementation for developers preferring Python integration.
 - **[mcp-server-idapro](https://github.com/fdrechsler/mcp-server-idapro)**: TypeScript-based MCP server providing tools for binary analysis and script execution.
 - **[ida-mcp-server-plugin](https://github.com/taida957789/ida-mcp-server-plugin)**: IDA Pro plugin with SSE (Server-Sent Events) protocol support for real-time integration with Claude and Cursor.
+- **[ida-hive](https://github.com/yynps737/ida-hive)**: Native multi-instance IDA Pro MCP server (Rust + C++). 60 tools, 100 concurrent idalib sessions. No Python — direct C++ SDK calls via idalib headless.
 - **[headless-ida-mcp-server](https://github.com/cnitlrt/headless-ida-mcp-server)**: Headless automation-focused server for CI/CD integration and batch processing.
 
 ### Ghidra
@@ -43,6 +44,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 ### Other Disassemblers
 - **[radare2-mcp](https://github.com/radareorg/radare2-mcp)**: Official Radare2 implementation with 26+ tools via STDIO transport.
 - **[x64dbgMCP](https://github.com/Wasdubya/x64dbgMCP)**: Exposes 40+ x64dbg SDK tools for Windows debugging.
+- **[x64dbg-hive](https://github.com/yynps737/x64dbg-hive)**: Native x64dbg MCP server (C++ plugin + Rust). 92 tools with 156 HTTP endpoints. Thread-safe Bridge API integration via expression engine.
 - **[CutterMCP](https://github.com/ap425q/CutterMCP)**: Rizin-based analysis with modern GUI integration.
 
 ## Debuggers
