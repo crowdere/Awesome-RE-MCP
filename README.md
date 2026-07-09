@@ -27,6 +27,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 - **[mcp-server-idapro](https://github.com/fdrechsler/mcp-server-idapro)**: TypeScript-based MCP server providing tools for binary analysis and script execution.
 - **[ida-mcp-server-plugin](https://github.com/taida957789/ida-mcp-server-plugin)**: IDA Pro plugin with SSE (Server-Sent Events) protocol support for real-time integration with Claude and Cursor.
 - **[headless-ida-mcp-server](https://github.com/cnitlrt/headless-ida-mcp-server)**: Headless automation-focused server for CI/CD integration and batch processing.
+- **[idamesh](https://github.com/JordanRO2/idamesh)**: MCP server exposing IDA's disassembler and the Hex-Rays decompiler as tools and resources — decompile, cross-refs, call graphs, type/struct inspection, search, and edits. Streamable HTTP and stdio, with a supervisor fronting multiple databases behind one endpoint. Python, MIT.
 
 ### Ghidra
 - **[GhidraMCP](https://github.com/LaurieWired/GhidraMCP)**: Most comprehensive with 5.4k+ stars, featuring extensive documentation and multi-client support.
