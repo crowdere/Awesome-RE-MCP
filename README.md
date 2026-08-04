@@ -44,6 +44,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 - **[radare2-mcp](https://github.com/radareorg/radare2-mcp)**: Official Radare2 implementation with 26+ tools via STDIO transport.
 - **[x64dbgMCP](https://github.com/Wasdubya/x64dbgMCP)**: Exposes 40+ x64dbg SDK tools for Windows debugging.
 - **[CutterMCP](https://github.com/ap425q/CutterMCP)**: Rizin-based analysis with modern GUI integration.
+- **[morluto/rea](https://github.com/morluto/rea)**: Local CLI and MCP tools for agent-driven reverse engineering with Hopper and Ghidra.
 
 ## Debuggers
 
