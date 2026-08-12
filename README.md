@@ -61,6 +61,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 
 ### Available
 - **[YaraFlux](https://github.com/ThreatFlux/YaraFlux)**: YARA-based MCP server for malware detection and signature matching.
+- **[HexWitness](https://github.com/siaginw/HexWitness)**: Build-scoped evidence memory and read-only MCP query layer for AI-assisted RE, with Binary Ninja, IDA, Ghidra, Frida, and sealed runtime-capture adapters.
 
 ### Missing Static Analysis Tools 🚨
 - **BinDiff**: No MCP server for binary diffing
