@@ -72,6 +72,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 
 ### Available
 - **[frida-mcp](https://github.com/dnakov/frida-mcp)**: MCP server for Frida with process management, script injection, and real-time instrumentation.
+- **[apitrace-mcp](https://github.com/phunkaeg/apitrace-mcp)**: Python MCP server for graphics API tracing and analysis of older games, including D3D8/D3D9 and legacy OpenGL. Provides capture/replay, call inspection, camera/projection-matrix analysis, and trace/state/image comparisons. Status: alpha. Transport: STDIO. Clients: Claude Desktop, Claude Code, and Codex. Requires Windows and Python 3.11+.
 
 ### Missing Dynamic Analysis Tools 🚨
 - **Intel Pin**: No MCP server for dynamic binary instrumentation
