@@ -44,6 +44,8 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 - **[radare2-mcp](https://github.com/radareorg/radare2-mcp)**: Official Radare2 implementation with 26+ tools via STDIO transport.
 - **[x64dbgMCP](https://github.com/Wasdubya/x64dbgMCP)**: Exposes 40+ x64dbg SDK tools for Windows debugging.
 - **[CutterMCP](https://github.com/ap425q/CutterMCP)**: Rizin-based analysis with modern GUI integration.
+- **[REA](https://github.com/morluto/rea)**: One MCP server for binaries, apps and runtime behavior, backed by Ghidra, Rizin, Hopper or JEB, with Electron, Android and .NET analysis and evidence-tracked results.
+- **[Eleven](https://github.com/Zfinix/eleven)**: Agent-first reverse-engineering app for macOS, Windows and Linux that serves its own MCP tools, so ACP agents open functions, rename, annotate and patch binaries, Android apps and GPU kernels in the same window.
 
 ## Debuggers
 
