@@ -113,6 +113,7 @@ A curated list of reverse engineering tools with MCP (Model Context Protocol) se
 - **[mcp-for-security](https://github.com/cyproxio/mcp-for-security)**: Collection including SQLMap, FFUF, NMAP, Masscan and more.
 - **Multiple Burp Suite implementations**: See Network Analysis section.
 - **OWASP ZAP**: Multiple MCP servers available.
+- **[Scrapewise](https://github.com/BEBOTECH-OU/scrapewise-mcp)**: Remote MCP server that scrapes, cleans and matches product and price data from any website.
 
 ## Missing Categories (Need Community Help!) 🚨
 
