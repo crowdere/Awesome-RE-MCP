@@ -158,6 +158,7 @@ Want to create an MCP server for a missing tool? Here are resources to get start
 - **[Microsoft MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)**: Comprehensive curriculum with examples in multiple languages.
 - **[MCP Dev Days](https://developer.microsoft.com/en-us/reactor/series/S-1563/)**: Microsoft's official MCP conference and learning resources.
 - **[MCP Specification](https://modelcontextprotocol.io/)**: Official protocol documentation.
+- **[No Stairs Please MCP](https://nostairsplease.com/mcp)**: Live remote MCP server and independent venue directory ([nostairsplease.com](https://nostairsplease.com/)).
 
 ### Development Patterns
 Most successful RE tool MCP servers follow these patterns:
